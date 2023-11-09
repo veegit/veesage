@@ -1,7 +1,6 @@
 +++
 title = "Zenith's Journey"
 date = 2023-11-08T22:24:53-08:00
-draft = true
 +++
 
 “Can you please try again?” Zenith sounded exasperated.
