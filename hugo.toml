@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'veesage.github.io'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Visage of Vee'
 theme =  'PaperMod'
 
 [menu]
