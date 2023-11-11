@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'Visage of Vee'
 theme =  'PaperMod'
 
+[params]
+    ShowReadingTime = true
+
 [menu]
 [[menu.main]]
     name = 'Articles'

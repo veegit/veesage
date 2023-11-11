@@ -64,4 +64,4 @@ The Prime Minister of India had announced the demonetization initiative, banning
 
 Later that evening, Prakash dropped by her home after hearing about the incident at her shop. She recounted what had happened, and he once again reminded her not to share this with anyone. Before departing, Prakash looked her in the eye and said, “Radhika, I have never seen you make any mistake in your work. I hope that your son becomes a doctor and is able to save lives, making up for your mistake.” As the nation was still reeling from the news, her heart was strangely tranquil.
 
-_This story was written a part of a reddit r/WritingPrompts - "You own a laundromat that literally launders money. It keeps the money clean, sanitized, and stiff. Of which you had to explain to mobsters, cartels, and law enforcement agencies, every, damn, year."_
+_This story was written as a part of reddit r/WritingPrompts - "You own a laundromat that literally launders money. It keeps the money clean, sanitized, and stiff. Of which you had to explain to mobsters, cartels, and law enforcement agencies, every, damn, year."_
