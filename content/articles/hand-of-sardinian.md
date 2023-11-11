@@ -2,8 +2,6 @@
 title = 'Hand of Sardinian'
 date = 2023-11-10T22:05:31-08:00
 +++
-Hand of a Sardinian by Vee
-
 Ampelius felt a cool breeze beneath his tunic as he swung the hammer with his calloused hands. It had been an unusually hot month of March. He mulled over a long day and the tasks that lay ahead of him-- he had to harden Marius’s armor and then settle his debts with his Patrcii, Lucius. 
 
 Ampelius had moved to Rome twelve years ago from Sardinia along with his father.  Ampelius recalled his father’s words - “Ampelius, you need to sail with winds of change. If you see a tailwind, ride it”. Hailing from a coastal province, Sardinians tended to use examples of that nature. His father was an enterprising man. He managed to get a job immediately. Rome was expanding everywhere and the need for weapons was paramount. Major metal supplies were coming from Brittania, Sardinia, and Hispania.  Patrcii Lucius was pretty much running the city's smiths and needed smiths who could work with a variety of metals. His father's expertise with Sardinian iron made him an ideal hand. They had set up a shop near Ludus Aemilius, a popular gladiatorial school. The business boomed with a steady supply of short swords to the Ludus. 
