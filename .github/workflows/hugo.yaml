@@ -60,11 +60,15 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
+      - name: Debug Output
+        run: |
+          echo "Contents of public directory:"
+          ls -la ./public
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-          name: github-pages
           overwrite: true
 
   # Deployment job
