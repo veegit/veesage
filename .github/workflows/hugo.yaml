@@ -1,5 +1,5 @@
-# Simplified workflow for deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+# Fresh Hugo deployment workflow using latest versions
+name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
@@ -12,52 +12,37 @@ permissions:
   pages: write
   id-token: write
 
-# Allow one concurrent deployment
+# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
-# Default to bash
-defaults:
-  run:
-    shell: bash
 
 jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.120.2
     steps:
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-      
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: true
           fetch-depth: 0
-          
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-        
-      - name: Build with Hugo
-        env:
-          HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
+
+      - name: Build
         run: |
-          hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-          
-      - name: Debug Output
-        run: |
-          echo "Contents of public directory:"
-          ls -la ./public
-          echo "\nFiles count in public:"
-          find ./public -type f | wc -l
-          
+          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+          echo "Files in public directory:"
+          find public -type f | wc -l
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -73,4 +58,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
