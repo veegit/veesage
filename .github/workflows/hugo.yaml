@@ -2,7 +2,7 @@
 name: Deploy Hugo site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the default branch main
   push:
     branches:
       - main
@@ -69,7 +69,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-          overwrite: true
 
   # Deployment job
   deploy:
