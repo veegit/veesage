@@ -1,0 +1,11 @@
+{{ $url := .Get "url" }}
+{{ $lang := .Get "lang" | default "plaintext" }}
+{{ $resource := resources.GetRemote $url }}
+{{ if $resource }}
+  {{ $content := $resource.Content }}
+  <pre><code class="language-{{ $lang }}">{{ $content | safeHTML }}</code></pre>
+{{ else }}
+  <div style="color: red; font-weight: bold;">
+    ⚠️ Failed to load content from URL: {{ $url }}
+  </div>
+{{ end }}
