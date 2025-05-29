@@ -68,7 +68,7 @@ Some challenges while working with Jules
 
 <br>
 
-Some learnings while working with ChatGPT Plus
+Some learnings while working with ChatGPT
 1. Be elaborate in your requirements. Provide schema for responses, API ports etc. 
 2. You HAVE to continue to use deep research mode to get the best of out it. I tapped out of Deep Research after first message to save on 10 limit I have.
 3. Remind it to add the code inline in Chat. Sometime the Canvas mode doesn't format/highlight the code properly
