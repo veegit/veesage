@@ -1,0 +1,24 @@
+{{ $user := .Get "user" }}
+{{ $repo := .Get "repo" }}
+{{ $file := .Get "file" }}
+{{ $branch := .Get "branch" | default "main" }}
+{{ $height := .Get "height" | default "400px" }}
+{{ $lang := .Get "lang" | default "text" }}
+
+<div class="github-file-embed">
+  <div class="file-header">
+    <a href="https://github.com/{{ $user }}/{{ $repo }}/blob/{{ $branch }}/{{ $file }}" target="_blank">
+      📁 {{ $file }}
+    </a>
+  </div>
+  <div class="file-content" style="height: {{ $height }}; overflow-y: auto;">
+    {{ $url := printf "https://raw.githubusercontent.com/%s/%s/%s/%s" $user $repo $branch $file }}
+    {{ with resources.GetRemote $url }}
+      {{ with .Content }}
+        {{- highlight . $lang "linenos=table" -}}
+      {{ end }}
+    {{ else }}
+      <p>Error loading file from GitHub</p>
+    {{ end }}
+  </div>
+</div>

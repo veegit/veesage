@@ -1,5 +1,5 @@
 +++
-title = 'Playing with ChatGPT to enhance the Agentic Platform'
+title = 'Agentic Platform - Chapter 2: Enhance with ChatGPT Plus'
 date = 2025-05-19T20:55:05-07:00
 +++
 

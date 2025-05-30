@@ -1,5 +1,5 @@
 +++
-title = 'Playing with Claude Code to build an Agentic Platform'
+title = 'Agentic Platform - Chapter 1: Build with Claude Code'
 date = 2025-05-18T20:36:05-07:00
 +++
 
@@ -53,4 +53,4 @@ During prompting, I made sure to specify the use of LangGraph for the Agent Serv
 
 Here’s the CLAUDE.md file I used to generate the scaffolding.
 
-{{< githubfile url="https://raw.githubusercontent.com/veegit/agent-platform/refs/heads/main/CLAUDE.md" lang="markdown" >}}
+{{< githubscrollablefile user="veegit" repo="agent-platform" file="CLAUDE.md" lang="markdown" height="500px" >}}
