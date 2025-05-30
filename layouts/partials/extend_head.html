@@ -1,0 +1,8 @@
+<!-- layouts/partials/extend_head.html -->
+{{- if not .Site.IsServer -}}
+    {{- with .Site.Params.analytics.goatCounter.code -}}
+    <!-- GoatCounter Analytics -->
+    <script data-goatcounter="https://{{ . }}.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+    {{- end -}}
+{{- end -}}

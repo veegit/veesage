@@ -1,5 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Visage of Vee</title><link>veesage.github.io/</link><description>Recent content on Visage of Vee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 18 May 2025 20:36:05 -0700</lastBuildDate><atom:link href="veesage.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Playing with Claude Code to build an Agentic Platform</title><link>veesage.github.io/articles/test-mermaid/</link><pubDate>Sun, 18 May 2025 20:36:05 -0700</pubDate><guid>veesage.github.io/articles/test-mermaid/</guid><description>So, it was Sunday night, and after putting our toddler to sleep, I was finally able to sit down and experiment with Claude Code to build an Agentic Platform. I’ve been a long-time lurker on Hacker News and had heard great things about Claude Code, so I just had to try it. As a big Claude user, I signed up for Claude Code in the Developer Console, set up my credit card with $20 in credits, and was ready to go.</description></item><item><title>Hand of Sardinian</title><link>veesage.github.io/articles/hand-of-sardinian/</link><pubDate>Fri, 10 Nov 2023 22:05:31 -0800</pubDate><guid>veesage.github.io/articles/hand-of-sardinian/</guid><description>Ampelius felt a cool breeze beneath his tunic as he swung the hammer with his calloused hands. It had been an unusually hot month of March. He mulled over a long day and the tasks that lay ahead of him&amp;ndash; he had to harden Marius’s armor and then settle his debts with his Patrcii, Lucius.
-Ampelius had moved to Rome twelve years ago from Sardinia along with his father. Ampelius recalled his father’s words - “Ampelius, you need to sail with winds of change.</description></item><item><title>A Strange Laundry Day</title><link>veesage.github.io/articles/a-strange-laundry-day/</link><pubDate>Thu, 09 Nov 2023 21:29:12 -0800</pubDate><guid>veesage.github.io/articles/a-strange-laundry-day/</guid><description>Radhika strolled towards the dry-cleaning shop she owned in Nasik, a holy city near Mumbai. Her shop served a diverse clientele – people with soiled laundry, and priests from nearby temples seeking to cleanse the cash donations. With Diwali festivities recently concluded, it was a bustling time of the year, and Radhika anticipated an influx of such customers.
-Approaching her shop, she observed a gathering of men outside, one appearing to be a policeman, near a small truck parked nearby.</description></item><item><title>Zenith's Journey</title><link>veesage.github.io/articles/my-first-article/</link><pubDate>Wed, 08 Nov 2023 22:24:53 -0800</pubDate><guid>veesage.github.io/articles/my-first-article/</guid><description>“Can you please try again?” Zenith sounded exasperated.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Visage of Vee</title>
+    <link>veesage.github.io/</link>
+    <description>Recent content on Visage of Vee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 May 2025 21:55:00 -0700</lastBuildDate><atom:link href="veesage.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agentic Platform - Chapter 3: Improve with Windsurf</title>
+      <link>veesage.github.io/articles/playing-with-windsurf/</link>
+      <pubDate>Wed, 21 May 2025 21:55:00 -0700</pubDate>
+      
+      <guid>veesage.github.io/articles/playing-with-windsurf/</guid>
+      <description>Previously using ChatGPT Plus to build the frontend for the agent platform, I found it to be a bit slow with lot of back and forth. I then decided to try out Windsurf IDE.
+While testing the Agent I encountered 3 problems
+Agent was not able to remember the context e.g. User: Who was Bill Clinton? Agent: He was the 42nd President of USA User: Where was he born? Agent: Who are you referring to when you say &amp;#34;he&amp;#34; Agent was not invoking skills properly like Whenever I ask to look for news and anything which requires a search, it doesn&amp;rsquo;t.</description>
+    </item>
+    
+    <item>
+      <title>Agentic Platform - Chapter 2: Enhance with ChatGPT Plus</title>
+      <link>veesage.github.io/articles/playing-with-chatpgpt-coding/</link>
+      <pubDate>Mon, 19 May 2025 20:55:05 -0700</pubDate>
+      
+      <guid>veesage.github.io/articles/playing-with-chatpgpt-coding/</guid>
+      <description>Now that I was able to build the basic backend platform to build and serve agents via Claude Code, I wanted to now build a frontend to interact with the agents.
+I chose to use recently launched Jules from Google along with tried and tested ChatGPT Plus (another one of many subscription-based services I pay for)
+My trial with Jules suffice to say was pretty disappointing. The wait times were long and the code output wasn&amp;rsquo;t that great.</description>
+    </item>
+    
+    <item>
+      <title>Agentic Platform - Chapter 1: Build with Claude Code</title>
+      <link>veesage.github.io/articles/playing-with-claude-code/</link>
+      <pubDate>Sun, 18 May 2025 20:36:05 -0700</pubDate>
+      
+      <guid>veesage.github.io/articles/playing-with-claude-code/</guid>
+      <description>So, it was Sunday night, and after putting our toddler to sleep, I was finally able to sit down and experiment with Claude Code to build an Agentic Platform. I’ve been a long-time lurker on Hacker News and had heard great things about Claude Code, so I just had to try it. As a big Claude user, I signed up for Claude Code in the Developer Console, set up my credit card with $20 in credits, and was ready to go.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>veesage.github.io/about/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>veesage.github.io/about/</guid>
+      <description>Hello, I&amp;rsquo;m Vee Welcome Humans and AI Overlords. I&amp;rsquo;m passionate about building systems that don&amp;rsquo;t break when millions of people try to pay for stuff at the same time. Turns out that&amp;rsquo;s harder than it sounds.
+What I Do I like building fault tolerant systems and highly correct systems. I have dabbled in all of them - RiskTech, BondTech, Developer Toolkits, SaaS Commerce and Agent Commerce. I&amp;rsquo;ve spent 15+ years building such platforms that somehow manages to stay up even when everything else is on fire.</description>
+    </item>
+    
+    <item>
+      <title>Hand of Sardinian</title>
+      <link>veesage.github.io/articles/hand-of-sardinian/</link>
+      <pubDate>Fri, 10 Nov 2023 22:05:31 -0800</pubDate>
+      
+      <guid>veesage.github.io/articles/hand-of-sardinian/</guid>
+      <description>Ampelius felt a cool breeze beneath his tunic as he swung the hammer with his calloused hands. It had been an unusually hot month of March. He mulled over a long day and the tasks that lay ahead of him&amp;ndash; he had to harden Marius’s armor and then settle his debts with his Patrcii, Lucius.
+Ampelius had moved to Rome twelve years ago from Sardinia along with his father. Ampelius recalled his father’s words - “Ampelius, you need to sail with winds of change.</description>
+    </item>
+    
+    <item>
+      <title>A Strange Laundry Day</title>
+      <link>veesage.github.io/articles/a-strange-laundry-day/</link>
+      <pubDate>Thu, 09 Nov 2023 21:29:12 -0800</pubDate>
+      
+      <guid>veesage.github.io/articles/a-strange-laundry-day/</guid>
+      <description>Radhika strolled towards the dry-cleaning shop she owned in Nasik, a holy city near Mumbai. Her shop served a diverse clientele – people with soiled laundry, and priests from nearby temples seeking to cleanse the cash donations. With Diwali festivities recently concluded, it was a bustling time of the year, and Radhika anticipated an influx of such customers.
+Approaching her shop, she observed a gathering of men outside, one appearing to be a policeman, near a small truck parked nearby.</description>
+    </item>
+    
+    <item>
+      <title>Zenith&#39;s Journey</title>
+      <link>veesage.github.io/articles/my-first-article/</link>
+      <pubDate>Wed, 08 Nov 2023 22:24:53 -0800</pubDate>
+      
+      <guid>veesage.github.io/articles/my-first-article/</guid>
+      <description>“Can you please try again?” Zenith sounded exasperated.
 “Sir, unfortunately, this is the best I can do with the credits you have” An AVITA responded in a voice that was borderline mechanical.
-Zenith yearned for the time when humans used to be customer service agents a century ago; they were probably more reasonable. AVITA (or Automated Voice Interface Ticketing Assistant) like other voice assistants had replaced all customer service reps.</description></item></channel></rss>
+Zenith yearned for the time when humans used to be customer service agents a century ago; they were probably more reasonable. AVITA (or Automated Voice Interface Ticketing Assistant) like other voice assistants had replaced all customer service reps.</description>
+    </item>
+    
+  </channel>
+</rss>
