@@ -315,5 +315,5 @@ az containerapp update --name agent-platform-lifecycle --resource-group $RESOURC
 With some prereading of good azure documentation + relying on Claude Chat, I was able to get the service running in Azure.
 
 _Look on my works, ye Mighty, and despair_
-
-https://agent-platform-api.purplewater-c0416f2a.eastus.azurecontainerapps.io/
+![](/images/url-azure.png)
+ <button class="clipboard-btn" onclick="copyToClipboard('https://agent-platform-api.purplewater-c0416f2a.eastus.azurecontainerapps.io/')">Copy URL📋</button>

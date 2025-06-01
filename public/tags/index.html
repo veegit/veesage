@@ -56,7 +56,67 @@
         }
 
     </style>
-</noscript>
+</noscript><style>
+    .home-info {
+        margin: 0 !important;
+        padding: 10px 0 !important;
+        min-height: auto !important;
+    }
+    
+    .home-info .home-info-content {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .home-info h1, .home-info p {
+        display: none !important;
+    }
+    
+    .clipboard-btn {
+        cursor: pointer;
+        padding: 8px;
+        margin: 0 5px;
+        border: none;
+        background: none;
+        font-size: 18px;
+        opacity: 0.7;
+        transition: opacity 0.3s;
+    }
+    
+    .clipboard-btn:hover {
+        opacity: 1;
+    }
+    
+    .clipboard-success {
+        color: green;
+    }
+    </style>
+    
+    <script>
+    function copyToClipboard(text) {
+        navigator.clipboard.writeText(text).then(function() {
+            
+            const btn = event.target;
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '✅';
+            btn.classList.add('clipboard-success');
+            
+            setTimeout(() => {
+                btn.innerHTML = originalText;
+                btn.classList.remove('clipboard-success');
+            }, 2000);
+        }).catch(function(err) {
+            console.error('Failed to copy: ', err);
+            
+            const textArea = document.createElement('textarea');
+            textArea.value = text;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+        });
+    }
+    </script>
 </head>
 
 <body class="list" id="top">
