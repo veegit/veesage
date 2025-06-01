@@ -2,71 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Articles on Visage of Vee</title>
-    <link>veesage.github.io/articles/</link>
+    <link>//localhost:1313/articles/</link>
     <description>Recent content in Articles on Visage of Vee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 May 2025 21:55:00 -0700</lastBuildDate><atom:link href="veesage.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 May 2025 00:55:00 -0700</lastBuildDate><atom:link href="//localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agentic Platform - Chapter 4: Deploy to Azure</title>
+      <link>//localhost:1313/articles/playing-with-azure/</link>
+      <pubDate>Tue, 27 May 2025 00:55:00 -0700</pubDate>
+      
+      <guid>//localhost:1313/articles/playing-with-azure/</guid>
+      <description>&lt;p&gt;Now that the application is working locally, let&amp;rsquo;s deploy it to the cloud. I chose Azure since I get a generous $150 credit allowance as a Microsoft employee (thanks, employer!). The process was surprisingly straightforward. I remember my AWS deployment days from more than a decade ago—fun, but somewhat tedious. With the `az CLI, deployment was a breeze.&lt;/p&gt;
+&lt;p&gt;There were few deployment options available (arent we spoiled with choices).
+I chose Azure Container Apps since it offers auto-scaling, managed certificates, and seamless container registry integration with lower operational overhead than Kubernetes(AKS). AKS provides maximum control and full Kubernetes capabilities but adds complexity, while ACI is best for simple deployments and App Service works well for primarily web/API-focused applications.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Agentic Platform - Chapter 3: Improve with Windsurf</title>
-      <link>veesage.github.io/articles/playing-with-windsurf/</link>
+      <link>//localhost:1313/articles/playing-with-windsurf/</link>
       <pubDate>Wed, 21 May 2025 21:55:00 -0700</pubDate>
       
-      <guid>veesage.github.io/articles/playing-with-windsurf/</guid>
-      <description>Previously using ChatGPT Plus to build the frontend for the agent platform, I found it to be a bit slow with lot of back and forth. I then decided to try out Windsurf IDE.
-While testing the Agent I encountered 3 problems
-Agent was not able to remember the context e.g. User: Who was Bill Clinton? Agent: He was the 42nd President of USA User: Where was he born? Agent: Who are you referring to when you say &amp;#34;he&amp;#34; Agent was not invoking skills properly like Whenever I ask to look for news and anything which requires a search, it doesn&amp;rsquo;t.</description>
+      <guid>//localhost:1313/articles/playing-with-windsurf/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;//localhost:1313/articles/playing-with-chatgpt-coding&#34;&gt;Previously using ChatGPT Plus&lt;/a&gt; to build the frontend for the agent platform, I found it to be a bit slow with lot of back and forth. I then decided to try out Windsurf IDE.&lt;/p&gt;
+&lt;p&gt;While testing the Agent I encountered 3 problems&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Agent was not able to remember the context e.g.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;User: Who was Bill Clinton?
+Agent: He was the 42nd President of USA
+User: Where was he born?
+Agent: Who are you referring to when you say &amp;#34;he&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Agent was not invoking skills properly like Whenever I ask to look for news and anything which requires a search, it doesn&amp;rsquo;t. Even though the agent has access to web_search skill. E.g.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;User: Any recent news about OpenAI and Jony Ive
+Agent: Recently, there was an announcement that Jony Ive&amp;#39;s design firm, LoveFrom, has partnered with Airbnb to work on designing futuristic homes. However, I couldn&amp;#39;t find any recent news about Jony Ive being involved with OpenAI
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Skills are not easy to configure and needed lot of hardcoding.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;one-solution-to-all-problems---invocation-pattern-system&#34;&gt;One Solution to all problems - Invocation Pattern System&lt;/h3&gt;
+&lt;p&gt;We built a configuration-driven system that lets skills declare their own activation patterns. Think of it like skills raising their hands saying &amp;ldquo;Pick me! Pick me!&amp;rdquo; when they see a query they can handle.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Agentic Platform - Chapter 2: Enhance with ChatGPT Plus</title>
-      <link>veesage.github.io/articles/playing-with-chatpgpt-coding/</link>
+      <link>//localhost:1313/articles/playing-with-chatgpt-coding/</link>
       <pubDate>Mon, 19 May 2025 20:55:05 -0700</pubDate>
       
-      <guid>veesage.github.io/articles/playing-with-chatpgpt-coding/</guid>
-      <description>Now that I was able to build the basic backend platform to build and serve agents via Claude Code, I wanted to now build a frontend to interact with the agents.
-I chose to use recently launched Jules from Google along with tried and tested ChatGPT Plus (another one of many subscription-based services I pay for)
-My trial with Jules suffice to say was pretty disappointing. The wait times were long and the code output wasn&amp;rsquo;t that great.</description>
+      <guid>//localhost:1313/articles/playing-with-chatgpt-coding/</guid>
+      <description>&lt;p&gt;Now that I was able to build the &lt;a href=&#34;//localhost:1313/articles/playing-with-claude-code/&#34;&gt;basic backend platform to build and serve agents&lt;/a&gt; via Claude Code, I wanted to now build a frontend to interact with the agents.&lt;/p&gt;
+&lt;p&gt;I chose to use recently launched Jules from Google along with tried and tested ChatGPT Plus (another one of many subscription-based services I pay for)&lt;/p&gt;
+&lt;p&gt;My trial with Jules suffice to say was pretty disappointing. The wait times were long and the code output wasn&amp;rsquo;t that great. I then had to resort to the ChatGPT Plus to continue building the UI.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Agentic Platform - Chapter 1: Build with Claude Code</title>
-      <link>veesage.github.io/articles/playing-with-claude-code/</link>
+      <link>//localhost:1313/articles/playing-with-claude-code/</link>
       <pubDate>Sun, 18 May 2025 20:36:05 -0700</pubDate>
       
-      <guid>veesage.github.io/articles/playing-with-claude-code/</guid>
-      <description>So, it was Sunday night, and after putting our toddler to sleep, I was finally able to sit down and experiment with Claude Code to build an Agentic Platform. I’ve been a long-time lurker on Hacker News and had heard great things about Claude Code, so I just had to try it. As a big Claude user, I signed up for Claude Code in the Developer Console, set up my credit card with $20 in credits, and was ready to go.</description>
+      <guid>//localhost:1313/articles/playing-with-claude-code/</guid>
+      <description>&lt;p&gt;So, it was Sunday night, and after putting our toddler to sleep, I was finally able to sit down and experiment with Claude Code to build an Agentic Platform. I’ve been a long-time lurker on Hacker News and had heard great things about Claude Code, so I just had to try it. As a big Claude user, I signed up for Claude Code in the Developer Console, set up my credit card with $20 in credits, and was ready to go.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hand of Sardinian</title>
-      <link>veesage.github.io/articles/hand-of-sardinian/</link>
+      <link>//localhost:1313/articles/hand-of-sardinian/</link>
       <pubDate>Fri, 10 Nov 2023 22:05:31 -0800</pubDate>
       
-      <guid>veesage.github.io/articles/hand-of-sardinian/</guid>
-      <description>Ampelius felt a cool breeze beneath his tunic as he swung the hammer with his calloused hands. It had been an unusually hot month of March. He mulled over a long day and the tasks that lay ahead of him&amp;ndash; he had to harden Marius’s armor and then settle his debts with his Patrcii, Lucius.
-Ampelius had moved to Rome twelve years ago from Sardinia along with his father. Ampelius recalled his father’s words - “Ampelius, you need to sail with winds of change.</description>
+      <guid>//localhost:1313/articles/hand-of-sardinian/</guid>
+      <description>&lt;p&gt;Ampelius felt a cool breeze beneath his tunic as he swung the hammer with his calloused hands. It had been an unusually hot month of March. He mulled over a long day and the tasks that lay ahead of him&amp;ndash; he had to harden Marius’s armor and then settle his debts with his Patrcii, Lucius.&lt;/p&gt;
+&lt;p&gt;Ampelius had moved to Rome twelve years ago from Sardinia along with his father.  Ampelius recalled his father’s words - “Ampelius, you need to sail with winds of change. If you see a tailwind, ride it”. Hailing from a coastal province, Sardinians tended to use examples of that nature. His father was an enterprising man. He managed to get a job immediately. Rome was expanding everywhere and the need for weapons was paramount. Major metal supplies were coming from Brittania, Sardinia, and Hispania.  Patrcii Lucius was pretty much running the city&amp;rsquo;s smiths and needed smiths who could work with a variety of metals. His father&amp;rsquo;s expertise with Sardinian iron made him an ideal hand. They had set up a shop near Ludus Aemilius, a popular gladiatorial school. The business boomed with a steady supply of short swords to the Ludus.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>A Strange Laundry Day</title>
-      <link>veesage.github.io/articles/a-strange-laundry-day/</link>
+      <link>//localhost:1313/articles/a-strange-laundry-day/</link>
       <pubDate>Thu, 09 Nov 2023 21:29:12 -0800</pubDate>
       
-      <guid>veesage.github.io/articles/a-strange-laundry-day/</guid>
-      <description>Radhika strolled towards the dry-cleaning shop she owned in Nasik, a holy city near Mumbai. Her shop served a diverse clientele – people with soiled laundry, and priests from nearby temples seeking to cleanse the cash donations. With Diwali festivities recently concluded, it was a bustling time of the year, and Radhika anticipated an influx of such customers.
-Approaching her shop, she observed a gathering of men outside, one appearing to be a policeman, near a small truck parked nearby.</description>
+      <guid>//localhost:1313/articles/a-strange-laundry-day/</guid>
+      <description>&lt;p&gt;Radhika strolled towards the dry-cleaning shop she owned in Nasik, a holy city near Mumbai. Her shop served a diverse clientele – people with soiled laundry, and priests from nearby temples seeking to cleanse the cash donations. With Diwali festivities recently concluded, it was a bustling time of the year, and Radhika anticipated an influx of such customers.&lt;/p&gt;
+&lt;p&gt;Approaching her shop, she observed a gathering of men outside, one appearing to be a policeman, near a small truck parked nearby. Among the group, she recognized a familiar face – Prakash, a close friend of her late husband whom she hadn&amp;rsquo;t seen in a while. Pondering what the day had in store for her, a hefty gentleman from the group motioned for her to come closer.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Zenith&#39;s Journey</title>
-      <link>veesage.github.io/articles/my-first-article/</link>
+      <link>//localhost:1313/articles/my-first-article/</link>
       <pubDate>Wed, 08 Nov 2023 22:24:53 -0800</pubDate>
       
-      <guid>veesage.github.io/articles/my-first-article/</guid>
-      <description>“Can you please try again?” Zenith sounded exasperated.
-“Sir, unfortunately, this is the best I can do with the credits you have” An AVITA responded in a voice that was borderline mechanical.
-Zenith yearned for the time when humans used to be customer service agents a century ago; they were probably more reasonable. AVITA (or Automated Voice Interface Ticketing Assistant) like other voice assistants had replaced all customer service reps.</description>
+      <guid>//localhost:1313/articles/my-first-article/</guid>
+      <description>&lt;p&gt;“Can you please try again?” Zenith sounded exasperated.&lt;/p&gt;
+&lt;p&gt;“Sir, unfortunately, this is the best I can do with the credits you have” An AVITA responded in a voice that was borderline mechanical.&lt;/p&gt;
+&lt;p&gt;Zenith yearned for the time when humans used to be customer service agents a century ago; they were probably more reasonable. AVITA (or Automated Voice Interface Ticketing Assistant) like other voice assistants had replaced all customer service reps.&lt;/p&gt;</description>
     </item>
     
   </channel>

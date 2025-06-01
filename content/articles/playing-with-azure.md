@@ -5,7 +5,7 @@ ShowToc = true
 TocOpen = false
 +++
 
-Now that the application is working locally, let's deploy it to the cloud. I chose Azure since I get a generous $150 credit allowance as a Microsoft employee (thanks, employer!). The process was surprisingly straightforward. I remember my AWS deployment days from more than a decade ago—fun, but somewhat tedious. With the `az CLI, deployment was a breeze.
+Now that the application is [working locally](/articles/playing-with-windsurf/), let's deploy it to the cloud. I chose Azure since I get a generous $150 credit allowance as a Microsoft employee (thanks, employer!). The process was surprisingly straightforward. I remember my AWS deployment days from more than a decade ago—fun, but somewhat tedious. With the `az CLI, deployment was a breeze.
 
 There were few deployment options available (arent we spoiled with choices). 
 I chose Azure Container Apps since it offers auto-scaling, managed certificates, and seamless container registry integration with lower operational overhead than Kubernetes(AKS). AKS provides maximum control and full Kubernetes capabilities but adds complexity, while ACI is best for simple deployments and App Service works well for primarily web/API-focused applications. 
