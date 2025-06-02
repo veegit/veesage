@@ -67,8 +67,6 @@ The most complex challenge involved "self-replicating bombs" with astronomically
 
 ## Stranded on Level 4
 
-One problem, cryptically named "Bounces," remained unsolved and I got busy with life. I never got to complete the challenge since they only give you couple of days to solve it. 
+(One problem)[https://github.com/veegit/Algorithms/blob/master/src/main/java/com/vee/algorithms/problems/foobar/GooFooBounces.java], which look like an Edit Distance puzzle to me, remained unsolved and I got busy with life. I never got to complete the challenge since they only give you couple of days to solve it. 
 
 Although I was reached out by a Google Recruiter, it didn't work out at the end as evident from a "not a match" message. But I did end up learning a lot from the challenge and the solutions available in the [repository](https://github.com/veegit/Algorithms/tree/master/src/main/java/com/vee/algorithms/problems/foobar).
-
-![](/images/google-no-recruit.png)

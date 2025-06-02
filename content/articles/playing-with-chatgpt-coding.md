@@ -59,7 +59,7 @@ This did generate a basic UI for me but I had to give many further prompts to ge
 >While starting the initial conversation it fails with
 >POST http://localhost:8000/conversations 405 (Method Not Allowed)
 
-After some trial and error, I got the UI working. I did have to resort to some coding myself to get the whole experience working end to end but it was a fun experience. I did get some kick of of chatting with my spawn :)
+After some trial and error, I got the UI working. I did have to resort to some coding myself to get the whole experience working end to end but it was a fun experience. I did get some kick while chatting with my spawn :)
 
 <br>
 
