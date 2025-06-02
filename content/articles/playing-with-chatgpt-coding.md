@@ -1,6 +1,7 @@
 +++
 title = 'Agentic Platform - Chapter 2: Enhance with ChatGPT Plus'
 date = 2025-05-19T20:55:05-07:00
+series = ["Agentic Platform"]
 +++
 
 Now that I was able to build the [basic backend platform to build and serve agents](/articles/playing-with-claude-code/) via Claude Code, I wanted to now build a frontend to interact with the agents.

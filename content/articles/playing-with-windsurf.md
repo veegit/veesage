@@ -1,6 +1,7 @@
 +++
 title = 'Agentic Platform - Chapter 3: Improve with Windsurf'
 date = 2025-05-21T21:55:00-07:00
+series = ["Agentic Platform"]
 +++
 
 [Previously using ChatGPT Plus](/articles/playing-with-chatgpt-coding) to build the frontend for the agent platform, I found it to be a bit slow with lot of back and forth. I then decided to try out Windsurf IDE.

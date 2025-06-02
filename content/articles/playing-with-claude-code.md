@@ -1,6 +1,7 @@
 +++
 title = 'Agentic Platform - Chapter 1: Build with Claude Code'
 date = 2025-05-18T20:36:05-07:00
+series = ["Agentic Platform"]
 +++
 
 So, it was Sunday night, and after putting our toddler to sleep, I was finally able to sit down and experiment with Claude Code to build an Agentic Platform. I’ve been a long-time lurker on Hacker News and had heard great things about Claude Code, so I just had to try it. As a big Claude user, I signed up for Claude Code in the Developer Console, set up my credit card with $20 in credits, and was ready to go.

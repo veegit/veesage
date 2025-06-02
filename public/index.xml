@@ -66,6 +66,17 @@ Agent: Recently, there was an announcement that Jony Ive&amp;#39;s design firm, 
     </item>
     
     <item>
+      <title>Secret Google FooBar</title>
+      <link>//localhost:1313/articles/google-foobar/</link>
+      <pubDate>Thu, 01 May 2025 19:05:31 -0800</pubDate>
+      
+      <guid>//localhost:1313/articles/google-foobar/</guid>
+      <description>&lt;p&gt;What started as a simple Google search for &amp;ldquo;CyclicBarrier in Java&amp;rdquo; turned into an unexpected journey through Google&amp;rsquo;s Foo Bar coding challenge. Eight years ago, while debugging thread synchronization issues, my browser suddenly displayed a black screen with the message: &amp;ldquo;You&amp;rsquo;ve been invited to try Google Foo Bar. Do you accept? (yes/no)&amp;rdquo;. It seemed like every level has number of problems = level, except for level 4 and 5.&lt;/p&gt;
+&lt;h2 id=&#34;the-invitation&#34;&gt;The Invitation&lt;/h2&gt;
+&lt;p&gt;My coding competition days participation was long over. So accepting the challenge made me nervious but I decided to dive in. Accepting the challenge dropped me into a command-line interface with no GUI.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>About Me</title>
       <link>//localhost:1313/about/</link>
       <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>

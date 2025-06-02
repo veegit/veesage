@@ -1,0 +1,30 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Content }}
+  <div class="post-description">{{ .Content }}</div>
+  {{- end }}
+</header>
+
+{{- if .Site.Taxonomies.series }}
+<div class="series-list">
+  {{- range $key, $value := .Site.Taxonomies.series }}
+  <article class="series-entry">
+    <h2><a href="{{ "/series/" | relURL }}{{ $key | urlize }}">{{ $key | title }}</a></h2>
+    <p>{{ len $value.Pages }} {{ if eq (len $value.Pages) 1 }}article{{ else }}articles{{ end }}</p>
+    <div class="series-posts">
+      {{- range $index, $page := $value.Pages.ByDate }}
+      <div class="series-post">
+        <span class="post-number">{{ add $index 1 }}.</span>
+        <a href="{{ $page.Permalink }}">{{ $page.Title }}</a>
+      </div>
+      {{- end }}
+    </div>
+  </article>
+  {{- end }}
+</div>
+{{- else }}
+<p>No series found yet.</p>
+{{- end }}
+
+{{- end }}

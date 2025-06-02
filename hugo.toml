@@ -3,6 +3,11 @@ languageCode = 'en-us'
 title = 'Visage of Vee'
 theme =  'PaperMod'
 
+[taxonomies]
+  tag = "tags"
+  category = "categories" 
+  series = "series"
+
 [params]
     ShowReadingTime = true
 
@@ -20,6 +25,10 @@ theme =  'PaperMod'
     name = 'Articles'
     url = '/'
     weight = 10
+[[menu.main]]
+    name = 'Series'
+    url = '/series'
+    weight = 15
 [[menu.main]]
     name = 'About'
     url = '/about'
