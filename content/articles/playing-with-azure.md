@@ -1,7 +1,7 @@
 +++
 title = 'Agentic Platform - Chapter 4: Deploy to Azure'
 date = 2025-05-27T00:55:00-07:00
-series = "Agentic Platform"
+series = ["Agentic Platform"]
 ShowToc = true
 TocOpen = false
 +++
