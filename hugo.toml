@@ -30,6 +30,10 @@ theme =  'PaperMod'
     url = '/series'
     weight = 15
 [[menu.main]]
+    name = 'TIL'
+    url = '/til'
+    weight = 17
+[[menu.main]]
     name = 'About'
     url = '/about'
     weight = 20

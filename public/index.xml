@@ -6,7 +6,24 @@
     <description>Recent content on Visage of Vee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 May 2025 00:55:00 -0700</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Jun 2025 19:37:00 -0700</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Case Sensitivity in GitHub Pages</title>
+      <link>//localhost:1313/til/case-sensitivity-in-github-pages/</link>
+      <pubDate>Wed, 25 Jun 2025 19:37:00 -0700</pubDate>
+      
+      <guid>//localhost:1313/til/case-sensitivity-in-github-pages/</guid>
+      <description>&lt;h2 id=&#34;til-github-pages-is-case-sensitive&#34;&gt;TIL: GitHub Pages is Case-Sensitive&lt;/h2&gt;
+&lt;p&gt;Today I learned that GitHub Pages runs on a case-sensitive filesystem, unlike macOS which is case-insensitive by default.&lt;/p&gt;
+&lt;p&gt;This means that if you have an image file named &lt;code&gt;Image.jpg&lt;/code&gt; and reference it as &lt;code&gt;image.jpg&lt;/code&gt; in your markdown:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It will work locally on macOS&lt;/li&gt;
+&lt;li&gt;It will fail with a 404 error on GitHub Pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;solution&#34;&gt;Solution&lt;/h3&gt;
+&lt;p&gt;Always ensure that the case in your file references matches exactly with the actual filenames. This applies to:&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Agentic Platform - Chapter 4: Deploy to Azure</title>
       <link>//localhost:1313/articles/playing-with-azure/</link>
