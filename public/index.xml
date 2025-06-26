@@ -13,8 +13,8 @@
       <pubDate>Tue, 27 May 2025 00:55:00 -0700</pubDate>
       
       <guid>//localhost:1313/articles/playing-with-azure/</guid>
-      <description>&lt;p&gt;Now that the application is &lt;a href=&#34;//localhost:1313/articles/playing-with-windsurf/&#34;&gt;working locally&lt;/a&gt;, let&amp;rsquo;s deploy it to the cloud. I chose Azure since I get a generous $150 credit allowance as a Microsoft employee (thanks, employer!). The process was surprisingly straightforward. I remember my AWS deployment days from more than a decade ago—fun, but somewhat tedious. With the `az CLI, deployment was a breeze.&lt;/p&gt;
-&lt;p&gt;There were few deployment options available (arent we spoiled with choices).
+      <description>&lt;p&gt;Now that the application is &lt;a href=&#34;//localhost:1313/articles/playing-with-windsurf/&#34;&gt;working locally&lt;/a&gt;, let&amp;rsquo;s deploy it to the cloud. I chose Azure since I get a generous $150 credit allowance as a Microsoft employee (thanks, employer!). The process was surprisingly straightforward. I remember my AWS deployment days from more than a decade ago—fun, but somewhat tedious. With the &lt;code&gt;az&lt;/code&gt; CLI, deployment was a breeze.&lt;/p&gt;
+&lt;p&gt;There were few deployment options available (aren&amp;rsquo;t we spoiled with choices).
 I chose Azure Container Apps since it offers auto-scaling, managed certificates, and seamless container registry integration with lower operational overhead than Kubernetes(AKS). AKS provides maximum control and full Kubernetes capabilities but adds complexity, while ACI is best for simple deployments and App Service works well for primarily web/API-focused applications.&lt;/p&gt;</description>
     </item>
     
@@ -129,7 +129,7 @@ I have served users and their developer personas and nowdays I serve my developm
       <description>&lt;h1 id=&#34;the-grand-canyon-rim-to-rim-adventure-how-we-almost-died-but-didnt&#34;&gt;The Grand Canyon Rim to Rim Adventure: How We Almost Died (But Didn&amp;rsquo;t)&lt;/h1&gt;
 &lt;p&gt;So my buddy Ameet and I decided to walk across the Grand Canyon. You know, like normal people do. We started planning this crazy idea way back in August 2014, because apparently we needed 9 months to mentally prepare for walking into a giant hole in the ground.&lt;/p&gt;
 &lt;p&gt;[Picture spot: Us looking way too confident at the start]
-&lt;img loading=&#34;lazy&#34; src=&#34;//localhost:1313/images/rim2rimIMG_20150519_101604.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;//localhost:1313/images/Rim2RimIMG_20150519_101604.jpg&#34; alt=&#34;&#34;  /&gt;
 &lt;/p&gt;</description>
     </item>
     

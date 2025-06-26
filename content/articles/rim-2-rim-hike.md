@@ -8,7 +8,7 @@ date = 2015-07-01T21:29:12-08:00
 So my buddy Ameet and I decided to walk across the Grand Canyon. You know, like normal people do. We started planning this crazy idea way back in August 2014, because apparently we needed 9 months to mentally prepare for walking into a giant hole in the ground.
 
 [Picture spot: Us looking way too confident at the start]
-![](/images/rim2rimIMG_20150519_101604.jpg)
+![](/images/Rim2RimIMG_20150519_101604.jpg)
 
 ## The Planning (Or: How We Spent $972.79 to Walk)
 
@@ -28,7 +28,7 @@ We took Avatar Shuttle from Phoenix to the North Rim. It was very prompt and com
 Stayed at North Kaibab Lodge. Last real bed for a while. Should have enjoyed it more.
 
 [Picture spot: Doing a recon before the hike!]
-![](/images/rim2rimIMG_20150519_104530.jpg)
+![](/images/Rim2RimIMG_20150519_104530.jpg)
 
 ## Day 2 (May 19): Going Down Is Easy, Right?
 
@@ -39,14 +39,14 @@ The views were crazy. Like, stop-every-5-minutes-to-take-pictures crazy. Other h
 Set up our tent at Cottonwood. Cooked dinner on our coke can stove. The stove worked though and was surprisingly powerful. 
 
 [Picture spot: Views from North Kaibab trail]
-![](/images/rim2rimIMG_20150519_142326.jpg)
+![](/images/Rim2RimIMG_20150519_142326.jpg)
 [Picture spot: Our tent at Cottonwood]
-![](/images/rim2rimIMG_20150520_060808.jpg)
+![](/images/Rim2RimIMG_20150520_060808.jpg)
 
 ## Day 3 (May 20): Right in the middle
 
 [Picture spot: Breakfast before the hike]
-![](/images/rim2rimIMG_20150520_060822.jpg)
+![](/images/Rim2RimIMG_20150520_060822.jpg)
 Another 7 miles down to Bright Angel Campground. Saw a rattle snake on the trail. Harmless but the sound was ominous.
 
 Made it to Bright Angel Campground. Just dropped dead on the ground and took some time to setup the tent. The evening sun was serene.
@@ -65,14 +65,14 @@ The view was insane though. You can see the river and the inner canyon. Worth be
 
 [Picture spot: The Colorado River from above]
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px;">
-  <img src="/images/rim2rimIMG_20150521_102959.jpg">
-  <img src="/images/rim2rimIMG_20150521_103006.jpg">
-  <img src="/images/rim2rimIMG_20150521_103051.jpg">
-  <img src="/images/rim2rimIMG_20150521_101939.jpg">
+  <img src="/images/Rim2RimIMG_20150521_102959.jpg">
+  <img src="/images/Rim2RimIMG_20150521_103006.jpg">
+  <img src="/images/Rim2RimIMG_20150521_103051.jpg">
+  <img src="/images/Rim2RimIMG_20150521_101939.jpg">
 </div>
 
 [Picture spot: A small creek to fill up the water bag]
-<img src="/images/rim2rimIMG_20150521_133649.jpg">
+<img src="/images/Rim2RimIMG_20150521_133649.jpg">
 
 Indian Garden has trees! And shade! We've never been so happy to see plants.
 
@@ -85,7 +85,7 @@ People coming down kept saying "You're almost there!" They were lying.
 But then... WE MADE IT! South Rim! Civilization! Toilets that flush!
 
 [Picture spot: Victory photo at South Rim]
-![](/images/rim2rimIMG_20150522_111033.jpg)
+![](/images/Rim2RimIMG_20150522_111033.jpg)
 
 Stayed at Thunderbird Lodge. Showered for like an hour. Ate like Kings. Life was good.
 
