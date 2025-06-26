@@ -93,8 +93,6 @@ Stayed at Thunderbird Lodge. Showered for like an hour. Ate like Kings. Life was
 
 Took the shuttle back to Phoenix. The same driver was impressed! 
 
-[Picture spot: Exhausted but happy on the shuttle]
-
 ## The Numbers That Matter
 
 - Miles hiked: 24ish (plus side trips because we're overachievers)
@@ -113,8 +111,6 @@ Took the shuttle back to Phoenix. The same driver was impressed!
 5. Your knees will hate you
 6. Invest in a good water filter but don't hook it to water bag since it will slow the flow down. 
 7. The views make it all worth it
-
-[Picture spot: Group photo with all our gear]
 
 Total damage: $972.79 and some sore muscles. Would we recommend it? Absolutely.
 
