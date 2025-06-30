@@ -150,3 +150,5 @@ graph TB
     SR <--> |Redis Storage| DB[(Redis)]
     N --> |Store Results| DB
 {{< /mermaid >}}
+
+_This article is part of the my experiment of building an Agent Platform, you can view the progress as a part of the series here [Agentic Platform Series](/series/agentic-platform/)_

@@ -76,3 +76,6 @@ Some learnings while working with ChatGPT
 4. Probe the code output and ask follow-up questions to allow it to correct itself. 
 
 ![UI for Agent Platform](/images/playing-with-chatgpt.gif)
+
+
+_This article is part of the my experiment of building an Agent Platform, you can view the progress as a part of the series here [Agentic Platform Series](/series/agentic-platform/)_

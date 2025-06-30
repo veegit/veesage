@@ -318,3 +318,6 @@ With some prereading of good azure documentation + relying on Claude Chat, I was
 _Look on my works, ye Mighty, and despair_
 ![](/images/url-azure.png)
  <button class="clipboard-btn" onclick="copyToClipboard('https://agent-platform-api.purplewater-c0416f2a.eastus.azurecontainerapps.io/')">Copy URL📋</button>
+
+
+ _This article is part of the my experiment of building an Agent Platform, you can view the progress as a part of the series here [Agentic Platform Series](/series/agentic-platform/)_

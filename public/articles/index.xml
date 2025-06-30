@@ -6,7 +6,16 @@
     <description>Recent content in Articles on Visage of Vee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 May 2025 00:55:00 -0700</lastBuildDate><atom:link href="//localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jun 2025 00:06:00 -0700</lastBuildDate><atom:link href="//localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agentic Platform - Chapter 5: Build Mult-Agent PoC with Codex</title>
+      <link>//localhost:1313/articles/playing-with-codex/</link>
+      <pubDate>Sat, 28 Jun 2025 00:06:00 -0700</pubDate>
+      
+      <guid>//localhost:1313/articles/playing-with-codex/</guid>
+      <description>&lt;p&gt;After the deploying the single agent platform framework to &lt;a href=&#34;//localhost:1313/articles/playing-with-azure/&#34;&gt;Azure&lt;/a&gt;, I wanted to make it multi-agent. The timing was perfect too, ChatGPT Codex was available &amp;ldquo;freely&amp;rdquo; to plus users and I decided to give it a spin. Eventually the codebase goes from “one hero handles it all” to “call in the specialists.” It’s like upgrading from the Swiss Army knife in your drawer to a whole toolbox—because even bots shouldn’t have to do everything themselves.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Agentic Platform - Chapter 4: Deploy to Azure</title>
       <link>//localhost:1313/articles/playing-with-azure/</link>
@@ -116,7 +125,7 @@ Agent: Recently, there was an announcement that Jony Ive&amp;#39;s design firm, 
       <description>&lt;h1 id=&#34;the-grand-canyon-rim-to-rim-adventure-how-we-almost-died-but-didnt&#34;&gt;The Grand Canyon Rim to Rim Adventure: How We Almost Died (But Didn&amp;rsquo;t)&lt;/h1&gt;
 &lt;p&gt;So my buddy Ameet and I decided to walk across the Grand Canyon. You know, like normal people do. We started planning this crazy idea way back in August 2014, because apparently we needed 9 months to mentally prepare for walking into a giant hole in the ground.&lt;/p&gt;
 &lt;p&gt;[Picture spot: Us looking way too confident at the start]
-&lt;img loading=&#34;lazy&#34; src=&#34;//localhost:1313/images/rim2rimIMG_20150519_101604.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;//localhost:1313/images/Rim2RimIMG_20150519_101604.jpg&#34; alt=&#34;&#34;  /&gt;
 &lt;/p&gt;</description>
     </item>
     

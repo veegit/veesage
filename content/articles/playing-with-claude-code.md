@@ -55,3 +55,5 @@ During prompting, I made sure to specify the use of LangGraph for the Agent Serv
 Here’s the CLAUDE.md file I used to generate the scaffolding.
 
 {{< githubscrollablefile user="veegit" repo="agent-platform" file="CLAUDE.md" lang="markdown" height="500px" >}}
+
+_This article is part of the my experiment of building an Agent Platform, you can view the progress as a part of the series here [Agentic Platform Series](/series/agentic-platform/)_
